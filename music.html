@@ -1,54 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link href="./css/style.css" rel="stylesheet">
-    <title>Milky Chance - Music</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="./css/style.css" rel="stylesheet">
+  <title>Milky Chance - Music</title>
 </head>
+
 <body>
-    <main>
-        <header>
-            <h1 class="text-center fw-bold">
-                Milky Chance
-            </h1>
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                      <a class="nav-link" href="./music.html">Music</a>
-                      <a class="nav-link" href="./photos.html">Photos</a>
-                      <a class="nav-link" href="./aboutUs.html">About us</a>
-                      <a class="nav-link" href="./contact.html">Contact</a>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-        </header>
-        <section>
-          <div class="row m-2">
-            <h2 class="text-center fw-bold">
-                Playlist
-            </h2>
-            <div class="row justify-content-center">
-              <div class="col-6">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/707cK3j40hIquI15sOcYXP?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-              </div>
-            </div>
+  <main>
+    <header>
+      <h1 class="text-center fw-bold">
+        Milky Chance
+      </h1>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Features
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Media
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./music.html">Music</a></li>
+                  <li><a class="dropdown-item" href="./videos.html">Videos</a></li>
+                  <li><a class="dropdown-item" href="./photos.html">Photos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutUs.html">About Us</a>
+              </li>
+            </ul>
           </div>
-        </section>
-        <footer class="bg-light text-center text-lg-start">
-            <div class="text-center p-3">
-                Design by Juan Gonzalez | 2022
-            </div>
-          </footer>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="row m-2">
+        <h2 class="text-center fw-bold">
+          Playlist
+        </h2>
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <iframe style="border-radius:12px"
+              src="https://open.spotify.com/embed/album/707cK3j40hIquI15sOcYXP?utm_source=generator&theme=0"
+              width="100%" height="380" frameBorder="0" allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-light text-center text-lg-start">
+      <div class="text-center p-3">
+        Design by Juan Gonzalez | 2022
+      </div>
+    </footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
